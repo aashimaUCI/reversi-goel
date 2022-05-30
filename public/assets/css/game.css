@@ -1,0 +1,19 @@
+.headerrow {
+    background-color: rgb(115, 150, 93);
+  }
+
+  #messagePane {
+    background-color: rgb(183, 209, 184);
+  }
+
+  .join_room_response,
+  .left_room_response {
+    background-color: rgb(222, 233, 255);
+  }
+
+  .chat_message {
+    font-size: 125%;
+    margin: 1px 1px 1px 1px;
+    color: rgb(0, 0, 0);
+
+  }

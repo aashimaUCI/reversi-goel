@@ -134,7 +134,7 @@ socket.on('game_start_response', (payload) => {
     let newNode = makeStartGameButton();
     $('.socket_' + payload.socket_id + ' button').replaceWith(newNode);
     /* Jump to the game page */
-    window.location.href = 'game.html?username='+username+'&game_id'+payload.game_id;
+    window.location.href = 'game.html?username='+username+'&game_id='+payload.game_id;
 });
 
 
