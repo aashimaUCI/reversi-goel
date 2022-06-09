@@ -13,11 +13,11 @@
 
   <style>
     .headerrow {
-      background-color: rgb(115, 150, 93);
+      background-color: rgb(0, 101, 1);
     }
 
     #messagePane {
-      background-color: rgb(183, 209, 184);
+      background-color: rgb(181, 190, 119);
     }
 
     .join_room_response,
@@ -41,7 +41,7 @@
   <div class="container-fluid">
     <div class="row m-3 headerrow">
       <div class="col text-center">
-        <h3 id="lobbyTitle">Lobby</h3>
+        <h3 id="lobbyTitle" style="color: #FFFFFF; padding: 10px;">Lobby</h3>
       </div>
     </div>
 
@@ -49,12 +49,12 @@
       <div class="col">
         <div class="row align-items-start justify-content-center">
           <div class="col-md-4">
-            <h4>Players</h4>
+            <h4>Available players</h4>
             <div id="players" class="align-items-end text-right m-3">
             </div>
             </div>
           
-              <div class="col-md-8" id="messagePane">
+              <div class="col-md-8" id="messagePane" style="padding: 1em;">
                 <div>
                   <h4>Messages</h4>
                 </div>
@@ -64,7 +64,7 @@
 
                   <input type="text" class="form-control text-nowrap" id="chatMessage"
                     placeholder="Enter Your Message Here" aria-label="Enter your message to send the chatroom" />
-                  <button type="submit" class="btn btn-primary text text-nowrap" id="chatButton"
+                  <button type="submit" class="btn btn-primary text text-nowrap" style="background-color:#668656; id="chatButton"
                     onclick="sendChatMessage()">Send</button>
                 </div>
                 <div id="messages">
