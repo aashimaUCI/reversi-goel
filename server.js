@@ -11,7 +11,7 @@ let directory = __dirname + '/public';
 
 /*If we aren't on Herou, then we need to adjust our port and directory */
 if ((typeof port == 'undefined') || (port === null)) {
-    port = 8080;
+    port = 8081;
     directory = './public';
 }
 

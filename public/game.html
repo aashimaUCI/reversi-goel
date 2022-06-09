@@ -21,7 +21,7 @@
   <div class="container-fluid">
     <div class="row m-3 headerrow">
       <div class="col text-center">
-        <h3 id="gameTitle">Reversi</h3>
+        <h3 id="gameTitle">Welcome to Reversi</h3>
       </div>
     </div>
 
@@ -33,12 +33,12 @@
 
     <div class="row m-3">
       <div class="col-md-8 text-center justify-content-center">
-        <h3 id="my_color">My Color</h3><br />
-        <img class="img-fluid" src="assets/images/white.gif" alt="White Score" />
+        <h4 id="my_color">My Color</h4><br />
+        <img class="img-fluid" src="assets/images/white_thumb.gif" alt="White Score" />
         <span id="whitesum">White Sum</span>
         <span id="vs">vs</span>
         <span id="blacksum">Black Sum</span>
-        <img class="img-fluid" src="assets/images/black.gif" alt="Black Score" />
+        <img class="img-fluid" src="assets/images/black_thumb.gif" alt="Black Score" />
       </div>
       <div class="col-md-4 text-end justify-content-end">
         <div id="quit">Quit Button</div>
@@ -46,7 +46,7 @@
     </div>
 
     <div class="row m-3">
-      <div class="col">
+      <div class="col-md-8">
         <div class="row align-items-start justify-content-center">
           <div class="col-md-8 table-responsive">
             <div class="progress">
@@ -54,6 +54,7 @@
               bg-success" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
               </div>
             </div>
+            <br>
 
 
             <table id="game_board" class="mx-auto w-auto">
@@ -147,13 +148,14 @@
 
           </div>
 
-          <div class="col-md-4" id="messagePane">
+          <div class="col-md-4" id="messagePane" style="padding-left: 20px;">
             <div>
               <h4>Messages</h4>
             </div>
 
 
             <div class="input-group">
+
 
               <input type="text" class="form-control text-nowrap" id="chatMessage" placeholder="Enter Your Message Here"
                 aria-label="Enter your message to send the chatroom" />
@@ -167,6 +169,11 @@
       </div>
     </div>
 
+  </div>
+  <div class="row m-3">
+    <div class="col text-center">
+     <img class="img-fluid" src="assets/images/top-splash.png" alt="Reversi Logo"/>
+    </div>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
