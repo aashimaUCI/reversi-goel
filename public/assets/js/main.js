@@ -31,7 +31,7 @@ socket.on('log', function (array) {
 });
 
 function makeInviteButton(socket_id) {
-    let newHTML = "<button type ='button' class='btn btn-outline-primary'>Invite</button>";
+    let newHTML = "<button type ='button' class='btn' style='color: #006500; border-color: #006500;!important'>Invite</button>";
     let newNode = $(newHTML);
     newNode.click(() => {
         let payload = {
@@ -45,7 +45,7 @@ function makeInviteButton(socket_id) {
 }
 
 function makeInvitedButton(socket_id) {
-    let newHTML = "<button type ='button' class='btn btn-outline-primary'>Invited</button>";
+    let newHTML = "<button type ='button' class='btn btn-primary' style='color: #ffffff; background-color: #006500!important'>Invited</button>";
     let newNode = $(newHTML);
     newNode.click(() => {
         let payload = {
@@ -59,7 +59,7 @@ function makeInvitedButton(socket_id) {
 }
 
 function makePlayButton(socket_id) {
-    let newHTML = "<button type ='button' class='btn btn-success'>Play</button>";
+    let newHTML = "<button type ='button' class='btn btn-success' style='color: #ffffff; background-color: #668656!important'>Play</button>";
     let newNode = $(newHTML);
     newNode.click(() => {
         let payload = {
@@ -498,7 +498,7 @@ $(() => {
 
     $("#lobbyTitle").html(username + "'s Lobby");
 
-    $("#quit").html("<a href='lobby.html?username=" + username + "' class='btn btn-danger' role='button'>Quit</a>");
+    $("#quit").html("<a href='lobby.html?username=" + username + "' class='btn btn-danger' role='button'>Quit Game</a>");
 
 
     $('#chatMessage').keypress(function (e) {

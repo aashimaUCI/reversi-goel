@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Kdam+Thmor+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 
 body {
@@ -22,6 +22,7 @@ body {
   .left_room_response {
     /* background-color: rgb(247, 247, 247); */
     color:rgb(87, 125, 69);
+    font-family: 'Josefin Sans', sans-serif;
   }
 
   .chat_message {
